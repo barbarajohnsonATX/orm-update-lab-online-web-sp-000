@@ -1,6 +1,7 @@
 require_relative "../config/environment.rb"
 
 require 'pry'
+
 class Student
   attr_accessor :name, :grade, :id
   
