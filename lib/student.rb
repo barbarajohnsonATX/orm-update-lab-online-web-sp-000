@@ -53,10 +53,9 @@ class Student
   
 
   def self.create(name:, grade:)
-    binding.pry 
-    student = Student.new(name, grade)
-    student.save
-    student
+    students = Student.new(name, grade)
+    students.save
+    students
     
   end
   
